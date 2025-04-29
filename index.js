@@ -125,4 +125,4 @@ client.on('interactionCreate', async (interaction) => {
   }
 });
 
-client.login('REMOVED_TOKEN');
+const token = process.env.TOKEN;
